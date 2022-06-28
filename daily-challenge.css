@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  background-color: rgb(233, 215, 207);
+  margin: 50px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  /* border-radius: 10%; */
+}
+
+h1 {
+  font-family: "Black Han Sans", sans-serif;
+  color: crimson;
+}
+
+p {
+  /* font-family 2번째 인자 : fallback font
+    브라우저가 첫번째 폰트를 불러오지 못한 경우 사용함 */
+  font-family: "Nanum Gothic Coding", monospace;
+  color: #4d4d4d;
+}
+
+a {
+  color: rgb(167, 1, 78);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#todays-challenge {
+  color: rgb(170, 96, 83);
+  font-weight: bold;
+  font-size: 52px;
+}
